@@ -1,0 +1,6 @@
+# Ignore everything
+*
+
+#Unignore dotfiles folders
+!.config/nvim
+!.gitignore
