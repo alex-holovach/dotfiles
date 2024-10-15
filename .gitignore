@@ -4,3 +4,4 @@
 #Unignore dotfiles folders
 !.config/nvim
 !.gitignore
+!.zshrc
