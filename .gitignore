@@ -1,8 +1,1 @@
-# Ignore everything
-*
 
-#Unignore dotfiles folders
-!.config/nvim
-!.gitignore
-!.zshrc
-!.config/hypr
