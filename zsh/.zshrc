@@ -21,3 +21,7 @@ if [[ "$(uname)" == "Darwin" ]]; then
 fi
 
 eval "$(starship init zsh)"
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
