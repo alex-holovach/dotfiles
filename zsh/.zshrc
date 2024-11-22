@@ -10,6 +10,7 @@ if [[ "$(uname)" == "Linux" ]]; then
   . "$HOME/.cargo/env"
   source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
   export PATH=$PATH:/home/alex/go/bin
+  export PATH=$PATH:/usr/local/go/bin
 fi
 
 if [[ "$(uname)" == "Darwin" ]]; then
