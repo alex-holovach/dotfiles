@@ -19,7 +19,6 @@ if [[ "$(uname)" == "Darwin" ]]; then
     export PATH="/Users/aholovach:$PATH"
     source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
     export PATH=$PATH:/usr/local/go/bin
-    eval "$(zoxide init zsh)"
 fi
 
 eval "$(starship init zsh)"
@@ -35,4 +34,5 @@ export PATH="$PATH:$GOROOT/bin"
 
 eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
+eval "$(zoxide init zsh)"
 
