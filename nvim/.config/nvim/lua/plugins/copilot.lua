@@ -3,7 +3,7 @@ return {
     "zbirenbaum/copilot.lua",
     cmd = "Copilot",
     build = ":Copilot auth",
-    event = { "InsertEnter", "LspAttach" },
+    event = { "InsertEnter" },
     opts = {
       -- Copilot panel settings
       panel = {

@@ -1,5 +1,6 @@
 {
   "extras": [
+    "lazyvim.plugins.extras.coding.nvim-cmp",
     "lazyvim.plugins.extras.lang.clangd",
     "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.haskell",
@@ -13,7 +14,7 @@
     "lazyvim.plugins.extras.lang.yaml"
   ],
   "news": {
-    "NEWS.md": "6520"
+    "NEWS.md": "10960"
   },
-  "version": 6
+  "version": 7
 }

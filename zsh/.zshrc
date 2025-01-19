@@ -23,8 +23,6 @@ fi
 
 eval "$(starship init zsh)"
 
-. "$HOME/.atuin/bin/env"
-
 
 [[ -s "/Users/aholovach/.gvm/scripts/gvm" ]] && source "/Users/aholovach/.gvm/scripts/gvm"
 
