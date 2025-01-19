@@ -34,3 +34,4 @@ eval "$(atuin init zsh)"
 eval "$(direnv hook zsh)"
 eval "$(zoxide init zsh)"
 
+export PATH="/usr/local/opt/libpq/bin:$PATH"
