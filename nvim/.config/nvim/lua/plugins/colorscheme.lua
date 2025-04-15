@@ -14,14 +14,13 @@
 -- }
 --
 return {
-  {
-    "sainnhe/gruvbox-material",
-    priority = 1000,
-    config = function()
-      vim.g.gruvbox_material_background = "hard" -- darkest background
-      vim.g.gruvbox_material_foreground = "material" -- richer, modern fg
-      vim.g.gruvbox_material_enable_italic = 0
-      vim.cmd("colorscheme gruvbox-material")
-    end,
+  "ellisonleao/gruvbox.nvim",
+  priority = 1000,
+  opts = {
+    contrast = "hard",
   },
+  config = function(_, opts)
+    require("gruvbox").setup(opts)
+    vim.cmd.colorscheme("gruvbox")
+  end,
 }
