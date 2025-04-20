@@ -7,8 +7,7 @@ alias ll='ls -la'
 export EDITOR=nvim
 
 if [[ "$(uname)" == "Linux" ]]; then
-  . "$HOME/.cargo/env"
-  source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+  source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
   export PATH=$PATH:/home/alex/go/bin
   export PATH=$PATH:/usr/local/go/bin
 fi
@@ -19,6 +18,7 @@ if [[ "$(uname)" == "Darwin" ]]; then
     export PATH="/Users/aholovach:$PATH"
     source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
     export PATH=$PATH:/usr/local/go/bin
+ .  source $HOME/.atuin/bin/env
 fi
 
 eval "$(starship init zsh)"
@@ -35,3 +35,4 @@ eval "$(direnv hook zsh)"
 eval "$(zoxide init zsh)"
 
 export PATH="/usr/local/opt/libpq/bin:$PATH"
+
