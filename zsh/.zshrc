@@ -36,3 +36,4 @@ eval "$(zoxide init zsh)"
 
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
